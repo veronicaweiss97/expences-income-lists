@@ -17,7 +17,7 @@ import { state, style, trigger, transition, animate } from '@angular/animations'
   ]
 })
 export class ExpListComponent implements OnInit {
-
+//
   @Input() expenses!: Expense[]
   @Output() delete: EventEmitter<Expense> = new EventEmitter<Expense>()
 
