@@ -1,0 +1,14 @@
+<app-header></app-header>
+
+<section class="total">
+  <h2>Total spent: {{totalAmount}}</h2>
+</section>
+
+<section>
+  <app-form (formValue)='addItem($event)' ></app-form>
+</section>
+
+
+ <hr style='margin-top: 0'>
+
+ <app-exp-list [expenses]='expenses' (delete)='deleteItems($event)'></app-exp-list>

@@ -1,0 +1,26 @@
+.expenses {
+  width: 40%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #dcdbe1;
+  padding: 1rem;
+  border-radius: 10px;
+  h3 {
+    color: #2a5d68;
+    font-size: 1.5rem;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+  }
+  .expenses-list {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .expenses {
+    width: 100%;
+  }
+}

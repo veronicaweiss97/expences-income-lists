@@ -1,0 +1,7 @@
+<div class='income'>
+  <h3>Income</h3>
+  <div class='income-list' *ngFor='let item of incomes' @appear>
+    <app-income-item [item]='item' (deleteIncome)='deleteIncomeItem(item)'></app-income-item>
+  </div>
+
+</div>

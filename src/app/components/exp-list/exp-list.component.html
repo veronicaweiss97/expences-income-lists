@@ -1,0 +1,7 @@
+<div class='expenses'>
+  <h3 >Expenses</h3>
+  <div class='expenses-list' *ngFor='let item of expenses' @appear>
+    <app-exp-item [item]='item' (xButton)='deleteItem(item)' ></app-exp-item>
+  </div>
+
+</div>

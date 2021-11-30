@@ -1,0 +1,9 @@
+form {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+form .btn {
+  background-color: #dcdbe1;
+}/*# sourceMappingURL=form.component.css.map */

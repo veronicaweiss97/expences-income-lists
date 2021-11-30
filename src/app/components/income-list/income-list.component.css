@@ -1,0 +1,27 @@
+.income {
+  width: 40%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #f9e0ec;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.income h3 {
+  color: #7a1b38;
+  font-size: 1.5rem;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+.income .income-list {
+  width: 100%;
+}
+
+@media (max-width: 500px) {
+  .income {
+    width: 100%;
+  }
+}/*# sourceMappingURL=income-list.component.css.map */

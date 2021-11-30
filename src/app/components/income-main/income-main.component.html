@@ -1,0 +1,11 @@
+<app-header></app-header>
+
+<section class='main-income' style='margin-bottom: 2rem;'>
+  <h2>Total income: {{totalIncome}}</h2>
+</section>
+
+<app-income-form (formValue)='addIncomeItem($event)'></app-income-form>
+
+<hr>
+
+<app-income-list [incomes]='incomeArr' (deleteItem)='deleteItem($event)'></app-income-list>
